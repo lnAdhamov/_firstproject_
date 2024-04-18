@@ -44,15 +44,17 @@
             <div>
                 <% for (User user : users) { %>
                 <tr>
-                    <% if (user.getRoles()) %>
                     <td><%= user.getFirstName() %>
                     </td>
                     <td><%= user.getLastName()%>
                     </td>
-                    <td><%for (Role role : user.getRoles()) { %>
-                        <%= role.getName() %>
-                        <% } %>
+                    <%=user.getGroup().getName()%>
+                    <td>
                     </td>
+                    <%for (Role role : user.getRoles()) { %>
+                    <% if (role.getName().toLowerCase().equals("student")) %>
+                    <%= role.getName() %>
+                    <% } %>
                     <td>
                         <a href="editUser.jsp?id=<%=user.getId()%>" class="btn btn-outline-info">edit</a>
                         <a href="http://localhost:8080/user/delete?id=<%=user.getId()%>"
