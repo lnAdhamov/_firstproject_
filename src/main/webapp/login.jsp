@@ -12,6 +12,6 @@
     <link rel="stylesheet" href="static/bootstrap.min.css">
 </head>
 <body>
-
+<p>Login Farangiz</p>
 </body>
 </html>

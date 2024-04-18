@@ -7,7 +7,7 @@ import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;
 import jakarta.servlet.annotation.WebListener;
 
-@WebListener()
+@WebListener
 public class MyListener implements ServletContextListener {
     EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("STUDENT_GROUP");
     EntityManager entityManager = entityManagerFactory.createEntityManager();
