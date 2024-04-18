@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/.mvn/wrapper/maven-wrapper.properties
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/encodings.xml
