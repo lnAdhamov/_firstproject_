@@ -9,11 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705b20bf-56ce-4f86-8d92-6554b08228ad" name="Changes" comment="commit gitignore" />
+    <list default="true" id="705b20bf-56ce-4f86-8d92-6554b08228ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f13b9759-3ca0-4431-803a-b193641ed404/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/firstproject/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/firstproject/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 10.1.20.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/acer/IdeaProjects/firstproject/src/main/resources",
+    "last_opened_file_path": "C:/Users/acer/IdeaProjects/firstproject/src/main/java/uz/pdp/firstproject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,8 +81,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\acer\IdeaProjects\firstproject\src\main\resources" />
       <recent name="C:\Users\acer\IdeaProjects\firstproject\src\main\java\uz\pdp\firstproject" />
+      <recent name="C:\Users\acer\IdeaProjects\firstproject\src\main\resources" />
       <recent name="C:\Users\acer\IdeaProjects\firstproject\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\acer\IdeaProjects\firstproject\src\main\webapp" />
     </key>
@@ -178,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713452354098</updated>
       <workItem from="1713452355184" duration="57000" />
-      <workItem from="1713452421818" duration="1178000" />
+      <workItem from="1713452421818" duration="3427000" />
     </task>
     <task id="LOCAL-00001" summary="commit gitignore">
       <option name="closed" value="true" />
@@ -196,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713453516840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit empty home page">
+      <option name="closed" value="true" />
+      <created>1713453861081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713453861081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit gitignore" />
+    <MESSAGE value="commit empty home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit empty home page" />
   </component>
 </project>

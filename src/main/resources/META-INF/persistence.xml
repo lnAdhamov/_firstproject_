@@ -7,7 +7,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:postgresql://localhost:5432/postgres"/>
+                      value="jdbc:postgresql://localhost:5432/groupcruddb"/>
             <property name="javax.persistence.jdbc.user"
                       value="postgres"/>
             <property name="javax.persistence.jdbc.password"

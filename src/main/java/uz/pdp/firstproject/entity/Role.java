@@ -1,8 +1,7 @@
 package uz.pdp.firstproject.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,8 +13,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 @Table(name = "roles")
-public class Role extends BaseEntity{
-
+public class Role {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private String name;
 
 }
